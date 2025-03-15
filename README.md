@@ -27,6 +27,12 @@ This is a simple **Tic Tac Toe game** built using **React**. It is inspired by t
 
 ---
 
+## 🌐 Live Demo
+
+Check out the live version of the project here: [Tic Tac Toe Game](https://tic-tac-toe-react-mu-rust.vercel.app/)
+
+---
+
 ## 🛠️ Installation
 
 1️⃣ Clone the repository:
