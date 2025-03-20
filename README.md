@@ -10,6 +10,7 @@ This is a simple **Tic Tac Toe game** built using **React**. It is inspired by t
 - ✅ Built with React component structure
 - ✅ Completely responsive
 - ✅ Reset and New Game functionality added
+- ✅ Time Travel feature to go back to previous moves
 
 ---
 
@@ -35,25 +36,25 @@ Check out the live version of the project here: [Tic Tac Toe Game](https://tic-t
 
 ## 🛠️ Installation
 
-1️⃣ Clone the repository:
+1⃣ Clone the repository:
 
 ```bash
 git clone https://github.com/your-username/tic-tac-toe-react.git
 ```
 
-2️⃣ Navigate to the project directory:
+2⃣ Navigate to the project directory:
 
 ```bash
 cd tic-tac-toe-react
 ```
 
-3️⃣ Install dependencies:
+3⃣ Install dependencies:
 
 ```bash
 npm install
 ```
 
-4️⃣ Run the development server:
+4⃣ Run the development server:
 
 ```bash
 npm start
@@ -66,7 +67,7 @@ The app will be running on `http://localhost:3000`
 ## 🚀 Future Improvements
 
 - 🎨 Improve UI/UX design
-- ⏳ Implement time travel functionality
+- ⚙️ Add sound effects for moves
 
 ---
 
