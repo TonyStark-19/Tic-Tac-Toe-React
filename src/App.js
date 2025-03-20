@@ -14,7 +14,7 @@ export default function MainPage() {
 
       <div className="container">
         <div className="board">
-          <Board />
+          <Game />
         </div>
       </div>
     </>
@@ -29,17 +29,15 @@ function Square({ value, onSquareClick }) {
 }
 
 // board function
-function Board() {
-
-  const [xIsNext, setXIsNext] = useState(true);
-  const [squares, setSquares] = useState(Array(9).fill(null));
+function Board({ xIsNext, squares, onPlay, resetGame }) {
 
   function handleClick(i) {
-    const nextSquares = squares.slice();
 
     if (squares[i] || calculateWinner(squares)) {
       return;
     }
+
+    const nextSquares = squares.slice();
 
     if (xIsNext) {
       nextSquares[i] = "X";
@@ -47,14 +45,7 @@ function Board() {
       nextSquares[i] = "O";
     }
 
-    setSquares(nextSquares);
-    setXIsNext(!xIsNext);
-  }
-
-  // Reset game function
-  function resetGame() {
-    setSquares(Array(9).fill(null));
-    setXIsNext(true);
+    onPlay(nextSquares);
   }
 
   // winner
@@ -105,6 +96,56 @@ function Board() {
       )}
 
     </>
+  );
+}
+
+function Game() {
+  const [history, setHistory] = useState([Array(9).fill(null)]);
+  const [currentMove, setCurrentMove] = useState(0);
+  const xIsNext = currentMove % 2 === 0;
+  const currentSquares = history[currentMove];
+
+  function handlePlay(nextSquares) {
+    const nextHistory = [...history.slice(0, currentMove + 1), nextSquares];
+    setHistory(nextHistory);
+    setCurrentMove(nextHistory.length - 1);
+  }
+
+  function jumpTo(nextMove) {
+    setCurrentMove(nextMove);
+  }
+
+  // Reset game function
+  function resetGame() {
+    setHistory([Array(9).fill(null)]);
+    setCurrentMove(0);
+  }
+
+  const moves = history.map((squares, move) => {
+    let description;
+    if (move > 0) {
+      description = 'Go to move #' + move;
+    } else {
+      description = 'Go to game start';
+    }
+    return (
+      <li key={move}>
+        <button onClick={() => jumpTo(move)}>{description}</button>
+      </li>
+    );
+  });
+
+  return (
+    <div className="gamee">
+
+      <div className="game-board">
+        <Board xIsNext={xIsNext} squares={currentSquares} onPlay={handlePlay} resetGame={resetGame} />
+      </div>
+
+      <div className="game-info">
+        <ol>{moves}</ol>
+      </div>
+    </div>
   );
 }
 
