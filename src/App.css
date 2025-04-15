@@ -1,4 +1,5 @@
 /* heading */
+
 .heading {
   display: flex;
   justify-content: center;
@@ -15,6 +16,7 @@
 }
 
 /* container */
+
 .container {
   display: flex;
   justify-content: center;
@@ -23,16 +25,8 @@
   margin-top: 2rem;
 }
 
-/* turn message */
-.status {
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  color: #fff;
-  margin-top: 30px;
-}
-
 /* game board */
+
 .game {
   height: 400px;
   width: 400px;
@@ -45,6 +39,7 @@
 }
 
 /* boxes */
+
 .square {
   height: 120px;
   width: 120px;
@@ -80,7 +75,18 @@
   -webkit-tap-highlight-color: transparent;
 }
 
+/* turn message */
+
+.status {
+  font-size: 30px;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  margin-top: 30px;
+}
+
 /* history */
+
 .game-info {
   position: absolute;
   top: 7.5rem;
