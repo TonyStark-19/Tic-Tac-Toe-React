@@ -39,7 +39,7 @@ Check out the live version of the project here: [Tic Tac Toe Game](https://tic-t
 1⃣ Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/tic-tac-toe-react.git
+git clone https://github.com/TonyStark-19/tic-tac-toe-react.git
 ```
 
 2⃣ Navigate to the project directory:
