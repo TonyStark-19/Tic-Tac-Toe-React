@@ -143,7 +143,7 @@ function Game() {
       </div>
 
       <div className="game-info">
-        <ol>{moves}</ol>
+        <ul>{moves}</ul>
       </div>
     </div>
   );

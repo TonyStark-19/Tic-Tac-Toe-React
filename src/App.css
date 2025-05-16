@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
 /* heading */
 
 .heading {
@@ -48,6 +57,7 @@
   box-shadow: 0 0 1rem rgba(0, 0, 0, 0.4);
   font-size: 8vmin;
   color: #b0413e;
+  cursor: pointer;
 }
 
 /* reset button */
@@ -63,7 +73,7 @@
 
 .reset-btn button,
 .new-game-btn button {
-  padding: 1rem;
+  padding: 0.85rem;
   font-size: 1.25rem;
   background: #081b31;
   color: #fff;
@@ -93,11 +103,12 @@
   right: 2rem;
 }
 
-.game-info ol {
+.game-info ul {
   color: #fff;
+  list-style-type: none;
 }
 
-.game-info ol button {
+.game-info ul button {
   padding: 10px;
   border-radius: 10px;
   border: none;
@@ -108,6 +119,7 @@
   color: #fff;
   font-size: 16px;
   letter-spacing: 1px;
+  width: 180px;
   user-select: none;
   outline: none;
   -webkit-tap-highlight-color: transparent;
@@ -115,7 +127,7 @@
 
 /* responsiveness */
 
-@media (max-width: 1240px) {
+@media (max-width: 1250px) {
 
   .square {
     height: 110px;
@@ -135,11 +147,25 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 60px;
   }
 
   .game-info {
-    position: relative;
-    margin-top: -40px;
+    position: unset;
+  }
+}
+
+@media (max-width: 620px) {
+
+  .square {
+    font-size: 9vmin;
+  }
+}
+
+@media (max-width: 500px) {
+
+  .square {
+    font-size: 9.5vmin;
   }
 }
 
