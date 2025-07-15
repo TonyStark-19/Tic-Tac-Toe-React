@@ -4,6 +4,18 @@ This is a simple **Tic Tac Toe game** built using **React**. It is inspired by t
 
 ---
 
+## 📸 Screenshots
+
+![Tic Tac Toe Screenshot](images/image.png)
+
+---
+
+## 🌐 Live Demo
+
+Check out the live version of the project here: [Tic Tac Toe Game](https://tic-tac-toe-react-mu-rust.vercel.app/)
+
+---
+
 ## ✨ Features
 
 - ✅ Basic Tic Tac Toe functionality
@@ -19,18 +31,6 @@ This is a simple **Tic Tac Toe game** built using **React**. It is inspired by t
 - React.js
 - HTML
 - CSS (Plain CSS for styling)
-
----
-
-## 📸 Screenshots
-
-![Tic Tac Toe Screenshot](images/image.png)
-
----
-
-## 🌐 Live Demo
-
-Check out the live version of the project here: [Tic Tac Toe Game](https://tic-tac-toe-react-mu-rust.vercel.app/)
 
 ---
 
@@ -64,10 +64,14 @@ The app will be running on `http://localhost:3000`
 
 ---
 
-## 🚀 Future Improvements
+## 🎮 How to Play
 
-- 🎨 Improve UI/UX design
-- ⚙️ Add sound effects for moves
+1. Visit the Game [here](https://tic-tac-toe-react-mu-rust.vercel.app/).
+2. Player X and Player O take turns selecting cells on the grid.
+3. The first player to get three in a row (horizontally, vertically, or diagonally) wins.
+4. If all cells are filled and no player has three in a row, the game ends in a tie.
+5. Click the restart button to play again.
+6. Also you can go back to previous moves by using the hisotry of moves.
 
 ---
 
