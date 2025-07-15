@@ -73,7 +73,7 @@
 
 .reset-btn button,
 .new-game-btn button {
-  padding: 0.85rem;
+  padding: 0.85rem 1.4rem;
   font-size: 1.25rem;
   background: #081b31;
   color: #fff;
@@ -93,6 +93,7 @@
   justify-content: center;
   color: #fff;
   margin-top: 30px;
+  text-align: center;
 }
 
 /* history */
