@@ -97,7 +97,7 @@ Feel free to fork this repository and contribute to enhance the project. 😊
 
 💙 Acknowledgements
 
-Inspired by the official [React documentation](www.react.dev) tutorial
+Inspired by the official [React documentation](https://react.dev/learn) tutorial
 Deployed using Vercel
 
 ---
