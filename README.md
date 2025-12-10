@@ -1,5 +1,18 @@
 # 🎮 Tic Tac Toe Game
 
+![Repo Size](https://img.shields.io/github/repo-size/TonyStark-19/Tic-Tac-Toe-React?color=yellow)
+![Stars](https://img.shields.io/github/stars/TonyStark-19/Tic-Tac-Toe-React?color=blue)
+![Forks](https://img.shields.io/github/forks/TonyStark-19/Tic-Tac-Toe-React?color=blueviolet)
+![Last Commit](https://img.shields.io/github/last-commit/TonyStark-19/Tic-Tac-Toe-React?color=brightgreen)
+
+![React](https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+
+![Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?logo=vercel)
+![Time Travel](https://img.shields.io/badge/Feature-Time%20Travel%20Moves-purple)
+
 A clean and interactive **Tic Tac Toe** game built using **React**. <br />
 This project is my first hands-on React application, inspired by the official **React.dev** tutorial. I previously built this game using **vanilla JavaScript**, and recreating it in React helped me understand component structure, props, state management, and time-travel debugging.
 
