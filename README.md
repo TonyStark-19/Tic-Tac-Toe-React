@@ -20,7 +20,7 @@ This project is my first hands-on React application, inspired by the official **
 
 ## 📸 Screenshots
 
-![Tic Tac Toe Screenshot](images/image.png)
+![Tic Tac Toe Screenshot](/public/previews/image.png)
 
 ---
 
@@ -32,20 +32,24 @@ Check out the live version of the project here: [Tic Tac Toe Game](https://tic-t
 
 ## ✨ Features
 
-- 🎯 Classic Tic Tac Toe gameplay
-- ⚛️ Built using modular React components
-- 📱 Fully responsive across devices
-- 🔁 Restart & New Game functionality
-- ⏪ Time Travel — navigate through the history of moves
-- 🎉 Visual highlights for winner & ended games
+| Feature | Description |
+|:---|:---|
+| **Classic Tic Tac Toe Gameplay** | Enjoy the traditional two-player Tic Tac Toe experience. |
+| **Modular React Components** | Built with reusable and modular React components for better code organization. |
+| **Fully Responsive Design** | Optimized for a seamless experience across different devices and screen sizes. |
+| **Restart & New Game** | Restart the current match or start a fresh game at any time. |
+| **Time Travel** | Navigate through the history of moves to revisit previous game states. |
+| **Winner & Game Status Highlights** | Visually highlights the winning combination and ended game states. |
 
 ---
 
 ## 🛠️ Technologies Used
 
-- React.js
-- HTML
-- CSS (Plain CSS for styling)
+| Technology | Purpose |
+|:---|:---|
+| **React.js** | Builds the user interface using reusable components and manages game state. |
+| **HTML5** | Provides the structure of the application. |
+| **CSS3** | Handles styling, layout, and responsive design using plain CSS. |
 
 ---
 
@@ -81,13 +85,15 @@ The app will be running on `http://localhost:3000`
 
 ## 🎮 How to Play
 
-1. Visit the Game [here](https://tic-tac-toe-react-mu-rust.vercel.app/).
-2. Player X starts the game.
-3. Players take turns clicking cells on the 3×3 board.
-4. First to get three in a row (horizontal, vertical, or diagonal) wins.
-5. If all cells are filled with no winner → Match Draw.
-6. Use the Restart button to start a fresh game.
-7. Use Time Travel to jump back to any previous move in history.
+| Step | Instructions |
+|:---:|:---|
+| **1** | Visit the game: [Play Tic Tac Toe](https://tic-tac-toe-react-mu-rust.vercel.app/). |
+| **2** | Player **X** starts the game. |
+| **3** | Players take turns selecting cells on the 3×3 game board. |
+| **4** | Get three marks in a row (horizontally, vertically, or diagonally) to win. |
+| **5** | If all cells are filled and no player wins, the match ends in a draw. |
+| **6** | Click the **Restart** button to start a fresh game. |
+| **7** | Use **Time Travel** to revisit any previous move in the game history. |
 
 ---
 
@@ -115,4 +121,4 @@ Deployed using Vercel
 
 ---
 
-💡 Built with React and enthusiasm by **Aditya Chandel**
+Made with ❤️ by **Aditya Chandel**
