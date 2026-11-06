@@ -8,7 +8,6 @@
 }
 
 /* heading */
-
 .heading {
   display: flex;
   justify-content: center;
@@ -25,7 +24,6 @@
 }
 
 /* container */
-
 .container {
   display: flex;
   justify-content: center;
@@ -35,7 +33,6 @@
 }
 
 /* game board */
-
 .game {
   height: 400px;
   width: 400px;
@@ -48,7 +45,6 @@
 }
 
 /* boxes */
-
 .square {
   height: 120px;
   width: 120px;
@@ -61,7 +57,6 @@
 }
 
 /* reset button */
-
 .new-game-btn,
 .reset-btn {
   display: flex;
@@ -86,7 +81,6 @@
 }
 
 /* turn message */
-
 .status {
   font-size: 30px;
   display: flex;
@@ -97,7 +91,6 @@
 }
 
 /* history */
-
 .game-info {
   position: absolute;
   top: 7.5rem;
@@ -127,9 +120,7 @@
 }
 
 /* responsiveness */
-
 @media (max-width: 1250px) {
-
   .square {
     height: 110px;
     width: 110px;
@@ -142,7 +133,6 @@
 }
 
 @media (max-width: 900px) {
-
   .gamee {
     display: flex;
     flex-direction: column;
@@ -157,28 +147,24 @@
 }
 
 @media (max-width: 620px) {
-
   .square {
     font-size: 9vmin;
   }
 }
 
 @media (max-width: 500px) {
-
   .square {
     font-size: 9.5vmin;
   }
 }
 
 @media (max-width: 480px) {
-
   .status {
     font-size: 25px;
   }
 }
 
 @media (max-width: 420px) {
-
   .square {
     height: 100px;
     width: 100px;
@@ -203,7 +189,6 @@
 }
 
 @media (max-width: 370px) {
-
   .square {
     height: 80px;
     width: 80px;
